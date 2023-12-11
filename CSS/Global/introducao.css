@@ -1,0 +1,78 @@
+.main-bg {
+  background: var(--fundo-preto);
+  color: #ffffff;
+  box-shadow: inset 0 -120px #ffffff;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  gap: 0 40px;
+  box-sizing: border-box;
+  max-width: 1250px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-conteudo {
+  align-self: end;
+  padding-bottom: 200px;
+}
+
+.main-container h1 {
+  margin-bottom: 32px;
+  font-size: 64px;
+  line-height: 1.125;
+}
+
+.main-container p {
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #b2b2b2;
+}
+
+.bikcraft-preta {
+  border-radius: 4px;
+}
+
+@media (max-width: 1100px) {
+  .main-container h1 {
+    font-size: 48px;
+  }
+
+  .main-container p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 800px) {
+  .main-container {
+    background: #111111;
+    grid-template-columns: 1fr;
+    gap: 32;
+  }
+
+  .button-gold {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .main-conteudo {
+    margin-bottom: 20px;
+    padding-bottom: 0;
+  }
+
+  .main-container h1 {
+    margin-top: 30px;
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+
+  .main-container img {
+    height: 300px;
+    width: 100%;
+  }
+}
