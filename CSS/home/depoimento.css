@@ -1,0 +1,110 @@
+.depoimento-bg {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  background: #ffbb00;
+  align-items: center;
+}
+
+.depoimento-texto {
+  padding: 40px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.depoimento-bg p {
+  grid-column: 2;
+  grid-row: 1;
+  font-size: 36px;
+  font-style: italic;
+  color: #000000;
+  font-weight: 900;
+  line-height: 48px;
+  padding-top: 30px;
+}
+
+.depoimento-bg p::before {
+  content: "“";
+  font-size: 4rem;
+  color: #e4a30b;
+  position: absolute;
+  left: 5px;
+}
+
+.depoimento-bg p::after {
+  content: "”";
+  font-size: 4rem;
+  color: #e4a30b;
+  position: absolute;
+  bottom: 105px;
+}
+
+.div-top {
+  margin-top: 50px;
+}
+
+.depoimento-bg span {
+  grid-column: 2;
+  grid-row: 1;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #664400;
+}
+
+.depoimento-bg img {
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+
+  .depoimento-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .depoimento-bg p {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .depoimento-bg p::before {
+    content: "“";
+    font-size: 3.5rem;
+    color: #e4a30b;
+    position: absolute;
+    left: 5px;
+  }
+
+  .depoimento-bg p::after {
+    font-size: 3.5rem;
+  }
+}
+
+
+@media (max-width: 800px){
+  .depoimento-bg{
+    grid-template-columns: 1fr;
+  }
+
+  .depoimento-bg img{
+    height: 268px;
+  }
+
+  .depoimento-bg p {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  
+  .depoimento-bg p::before {
+    font-size: 2.5rem;
+    left: 15px;
+  }
+
+  .depoimento-bg p::after {
+    font-size: 2.5rem;
+  }
+
+}

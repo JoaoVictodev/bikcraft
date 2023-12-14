@@ -1,0 +1,205 @@
+
+
+.tecnologia-bg {
+  margin-top: 100px;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+  background: #000000;
+  color: #ffffffff;
+  box-shadow: inset 0 80px #ffffff, inset 0 -80px;
+}
+
+.tecnologia-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 1250px;
+  margin-right: auto;
+  margin-left: auto;
+  gap: 20px;
+}
+
+.tecnologia-container img {
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.tecnologia-topo {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+}
+
+.tecnologia-topo,
+p {
+  color: #b2b2b2;
+}
+
+.tecnologia-container p {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.tecnologia-container h2 {
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 72px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.escolha-bik {
+  padding: 20px 0 50px 0;
+  font-size: 24px;
+}
+
+.escolha-bik a {
+  color: #ffbb00;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.escolha-bik a:hover {
+  color: #ffffff;
+}
+
+.escolha-bik a::after {
+  display: block;
+  content: "";
+  padding: 3px;
+  width: 261px;
+  background: #ffbb00;
+}
+
+.escolha-bik a:hover:after {
+  background-color: #ffffff;
+}
+
+.tecnologia-vantagens {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.tecnologia-vantagens p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media (max-width: 1200px) {
+  .tecnologia-topo {
+    font-size: 18px;
+  }
+  .tecnologia-info h2 {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .tecnologia-info p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .escolha-bik {
+    padding: 20px 0 30px 0;
+    font-size: 24px;
+  }
+
+  .escolha-bik a {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .escolha-bik a::after {
+    display: block;
+    content: "";
+    padding: 2px;
+    width: 200px;
+    background: #ffbb00;
+  }
+
+  .tecnologia-vantagens p {
+    font-size: 16px;
+  }
+
+  .tec-foto {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .tecnologia-topo {
+    font-size: 16px;
+  }
+  .tecnologia-info h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .tecnologia-info p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .escolha-bik {
+    padding: 15px 0 10px 0;
+    font-size: 24px;
+  }
+
+  .escolha-bik a {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .escolha-bik a::after {
+    display: block;
+    content: "";
+    padding: 2px;
+    width: 175px;
+    background: #ffbb00;
+  }
+
+  .tecnologia-vantagens {
+    gap: 15px;
+  }
+
+  .tecnologia-vantagens h3 {
+    font-size: 17px;
+  }
+
+  .tecnologia-vantagens p {
+    font-size: 14px;
+    line-height: 15px;
+  }
+
+  .container-img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .tecnologia-bg {
+    box-shadow: inset 0 0px #ffffff, inset 0 -0px;
+  }
+
+  .tecnologia-container {
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 50px;
+  }
+  
+
+  .container-img {
+    width: 0px;
+    height: 0px;
+  }
+
+  .tecnologia-vantagens {
+    padding: 30px 0;
+  }
+
+}

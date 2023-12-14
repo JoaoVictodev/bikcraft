@@ -1,12 +1,12 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 600px;
 }
 
 h1,
 a,
 ul {
+  list-style: none;
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -14,9 +14,11 @@ ul {
 
 img {
   max-width: 100%;
+  max-height: 100%;
   display: block;
 }
-span {
+
+.ponto {
   color: #ffbb00;
 }
 
@@ -44,6 +46,24 @@ a {
   font-weight: bold;
 }
 
+.button-goldd {
+  display: inline-block;
+  padding: 16px 25px;
+  background: #2e2e2e;
+  color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) #ffffff;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1.33;
+  font-weight: bold;
+  place-self: start;
+}
+
 .button-gold:hover {
   background: linear-gradient(#ffb60d, #e59317);
+}
+
+.button-goldd:hover {
+  background: #404040;
 }

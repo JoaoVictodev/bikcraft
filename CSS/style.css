@@ -1,4 +1,10 @@
-@import "./Global/global.css";
-@import "./Global/header.css";
-@import "./Global/introducao.css";
-@import "./Global/listbickraft.css";
+@import "./home/global.css";
+@import "./home/header.css";
+@import "./home/introducao.css";
+@import "./home/listbickraft.css";
+@import "./home/tecnologia.css";
+@import "./home/parcerias.css";
+@import "./home/depoimento.css";
+@import "./home/planos.css";
+@import "./home/footer.css";
+@import "./bicicletas/bicicletas.css";

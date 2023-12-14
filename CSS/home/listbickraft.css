@@ -58,7 +58,7 @@
   margin-right: 5px;
 }
 
-.bicicletas h3:hover:before {
+.bicicletas a:hover h3:before {
   width: 7px;
   transition: 0.3s;
 }
