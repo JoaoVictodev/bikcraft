@@ -8,3 +8,10 @@
 @import "./home/planos.css";
 @import "./home/footer.css";
 @import "./bicicletas/bicicletas.css";
+
+/* bicicletas */
+
+@import "./bicicletas/bicicletas.css";
+/* termos */
+
+@import "./home/termos.css";
