@@ -1,0 +1,294 @@
+.grid-interna {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 30px;
+  padding-top: 50px;
+}
+
+.bicicleta-1 {
+  width: 100%;
+  max-width: 100%;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.container-img {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.bicicleta-2,
+.bicicleta-3 {
+  width: 100px;
+  max-width: 100%;
+  display: block;
+  flex: 1;
+  border-radius: 4px;
+}
+
+.bik-info {
+  grid-column: 2;
+}
+
+.cor-0 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  box-sizing: border-box;
+  padding: 30px;
+  background-color: #000000;
+  border-radius: 4px;
+  gap: 20px;
+}
+.cor-02 {
+  display: grid;
+  grid-template-rows: 1fr;
+  box-sizing: border-box;
+  padding: 30px;
+  background-color: #000000;
+  border-radius: 4px;
+}
+
+.li-ficha {
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.li-ficha:not(:last-child) {
+  border-bottom: 1px solid #111111;
+}
+
+.bik-info h2 {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.18px;
+  padding: 10px 0;
+}
+
+.bik-info .p2 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  padding-bottom: 20px;
+}
+
+.cor-0 h3 {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 0;
+}
+
+.cor-0 p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  max-width: 25ch;
+}
+
+.m-b2 {
+  margin-bottom: 0;
+}
+
+.escolha {
+  padding: 20px 0;
+  width: 500px;
+  justify-content: center;
+}
+
+.auto-escolha {
+  margin: 0 auto;
+  width: 1250px;
+  padding: 0 0 100px 0;
+}
+
+.bicicletas2 {
+  display: flex;
+  gap: 40px;
+}
+
+.seguro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 30px;
+}
+
+.descricao-seguro h2 {
+  padding-bottom: 20px 0;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 72px;
+}
+
+.descricao-seguro p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+.shadow-top {
+  box-shadow: inset 0 -100px #000000, inset 0 100px #ffffff;
+}
+
+.shadow-top img {
+  object-fit: cover;
+}
+
+.center {
+  width: 1000px;
+}
+
+@media (max-width: 1200px) {
+  /* .m-b {
+    padding: 10px;
+  }
+ */
+  .grid-interna {
+    gap: 10px;
+  }
+
+  .bicicleta-2,
+  .bicicleta-3 {
+    width: 230px;
+    max-width: 100%;
+    display: block;
+    flex: 1;
+    border-radius: 4px;
+  }
+
+  .bg-p22 .h-1 {
+    font-size: 54px;
+    padding-left: 10px;
+  }
+
+  .bg-p22 .p-intro {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+
+  .bik-info .p2 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .escolha-sua {
+    width: 100vw;
+  }
+
+  .descricao-seguro h2 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .descricao-seguro p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  .shadow-top {
+    box-shadow: inset 0 -60px #000000, inset 0 60px #ffffff;
+  }
+}
+
+@media (max-width: 800px) {
+  .grid-interna {
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+
+  .bg-p22 .h-1 {
+    font-size: 44px;
+  }
+
+  .bg-p22 .p-intro {
+    font-size: 15px;
+  }
+
+  .block-2 {
+    grid-column: 2;
+    grid-row: 2;
+    height: 100%;
+  }
+
+  .container-img {
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+  }
+
+  .bicicleta-1 {
+    width: 100%;
+  }
+
+  .descricao-seguro h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .descricao-seguro p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .shadow-top {
+    box-shadow: inset 0 -50px #000000;
+  }
+
+  .img-row2{
+    grid-row: 2;
+    max-width: 400px;
+    place-self: center;
+  }
+
+
+  .seguro-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .vw{
+    max-width: 100vw;
+  }
+}
+
+@media (max-width: 550px) {
+  .grid-interna {
+    width: 100vw;
+    gap: 10px;
+  }
+
+  .cor-0 {
+    gap: 1px;
+  }
+
+  .cor-0 h3 {
+    font-size: 14px;
+  }
+
+  .container-img {
+    max-height: 100%;
+    display: block;
+    width: 96vw;
+  }
+
+  .bicicleta-1 {
+    padding-top: 20px;
+  }
+
+  .bicicleta-1,
+  .bicicleta-2,
+  .bicicleta-3 {
+    width: 96vw;
+    max-height: 100%;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .cor-0 {
+    grid-template-columns: 1fr;
+  }
+}
